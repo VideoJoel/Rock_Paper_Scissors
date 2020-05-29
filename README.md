@@ -1,6 +1,7 @@
 /*
 Rock Paper Scissors Lizard Spock
 (The Big Band Theory)
+As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 */
 
 #include <iostream>
@@ -35,9 +36,16 @@ std::cin >> user;
 std::cout << "Computer Chose " << computer << "\n";
 
   /*
-  rock > scissors
-  paper > rock
   scissors > paper
+  paper > rock
+  rock > lizard
+  lizard > Spock
+  Spock > scissors
+  scissors > lizard
+  lizard > paper
+  paper > Spock
+  Spock > rock
+  rock > scissors
   */
 
 if (user == rock && computer == scissors) {
